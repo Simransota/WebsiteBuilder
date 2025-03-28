@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Website Builder
+
+This is a **Next.js** project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). It features an interactive **drag-and-drop website builder**, allowing users to design layouts seamlessly with a modern, sleek UI.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
 # or
+yarn install
 yarn dev
 # or
+pnpm install
 pnpm dev
 # or
+bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the project in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Drag-and-Drop Interface**: Easily move, resize, and customize elements.
+- **Prebuilt Components**: Use a variety of optimized UI elements.
+- **Modern Styling**: Built-in responsive design for a polished look.
+- **Customizable Themes**: Adjust colors, typography, and layouts effortlessly.
+- **Fast and Optimized**: Leveraging Next.js for high performance.
+
+## Editing the Project
+
+Modify `app/page.tsx` to start customizing your builder. Changes will auto-update in development mode.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Easily deploy your project using [Vercel](https://vercel.com/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the [deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
